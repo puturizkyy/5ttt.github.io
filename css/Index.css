@@ -94,6 +94,9 @@ video {
 }
 /* ukuran mobil */
 @media screen and (max-width: 576px) {
+    body {
+    overflow-x: hidden;
+  }
   .menu {
     display: flex;
   }
